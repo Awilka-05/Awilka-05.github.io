@@ -1,0 +1,80 @@
+/* Fuente moderna y minimalista */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: #7c3aed;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #a78bfa;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+/* Contenedor general */
+section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 15px 20px;
+  width: 70%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+/* Títulos de secciones */
+h2 {
+  color: #5b21b6;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+/* Listas */
+ul, ol {
+  margin-left: 20px;
+  padding: 5px 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* Links */
+a {
+  color: #7c3aed;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #5b21b6;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #7c3aed;
+  color: #fff;
+  margin-top: 25px;
+  font-size: 0.9em;
+  border-radius: 0 0 8px 8px;
+}
